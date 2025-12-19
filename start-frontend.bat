@@ -1,0 +1,9 @@
+@echo off
+echo Starting Vehicle Service Frontend...
+echo.
+cd vechileservice
+echo Installing dependencies...
+call npm install
+echo.
+echo Starting React development server...
+call npm start
